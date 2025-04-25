@@ -51,3 +51,18 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildFingerprint="samsung/a52sxqxx/a52sxq:11/RP1A.200720.012/A528BXXUAGXK8:user/release-keys" \
     BuildDesc="a52sxqxx-user 11 RP1A.200720.012 A528BXXUAGXK8 release-keys"
+
+# RisingOS
+RISING_MAINTAINER="NguyenPhong"
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RisingChipset="Snapdragon 778G 5G" \
+    RisingMaintainer="NguyenPhong"
+RISING_MAINTAINER := NguyenPhong
+TARGET_ENABLE_BLUR := true
+PRODUCT_NO_CAMERA := false
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := false 
+WITH_GMS := true
+TARGET_CORE_GMS := true
+TARGET_CORE_GMS_EXTRAS := true/false
+TARGET_DEFAULT_PIXEL_LAUNCHER := false 
+TARGET_INCLUDE_GOOGLE_DIALER := false
